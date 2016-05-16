@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /biography
+---
+<h3>Самые известные космонавты СССР и России</h3>
+<ul>
+{% for cosmonaut in site.cosmonauts %}
+  <li><a href="/cosmonauts/{{cosmonaut.title}}.html">{{cosmonaut.name}}</a></li>
+  <p>Дата рождения:{{cosmonaut.birthday}}</p>
+  <p>Название экспедиции:{{cosmonaut.expedition}}</p>
+{% endfor %}
+</ul>
+
+<ul>
+{% for cosmonaut in site.data.cosmonauts %}
+  <li>
+    <h4>{{cosmonaut.name}}</h4>
+    <p>{{cosmonaut.birthday}}</p>
+    <p>{{cosmonaut.expedition}}</p>
+  </li>
+{% endfor %}
+</ul>
