@@ -1,5 +1,4 @@
 ---
-title: tereshkova
 name: Терешкова Валентина Владимировна
 birthday: 6 марта 1937
 expedition: Восток 6.

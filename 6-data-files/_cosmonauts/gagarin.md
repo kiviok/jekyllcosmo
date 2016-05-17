@@ -1,5 +1,4 @@
 ---
-title: gagarin
 name: Юрий Алексеевич Гагарин
 birthday: 9 марта 1934
 expedition: Восток 1.
