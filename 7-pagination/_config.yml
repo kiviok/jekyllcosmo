@@ -1,0 +1,7 @@
+collections:
+  cosmonauts:
+    output: true
+
+gems: [jekyll-paginate]
+paginate_path: /main/page:num
+paginate: 3
